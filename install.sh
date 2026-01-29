@@ -25,8 +25,7 @@ apt-get install -y \
     python3-pyudev \
     yara \
     ntfs-3g \
-    exfat-fuse \
-    exfat-utils
+    exfatprogs
 
 echo "[3/6] Installing Python dependencies..."
 pip3 install pyudev --break-system-packages
